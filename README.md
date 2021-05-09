@@ -27,7 +27,7 @@ npm start
 npm run build
 ```
 
-#### Deploying the application to Github pages. 
+#### Deploying the application to GitHub pages. 
 1. Under the project directory, install gh-pages module (first-time-only). 
 ```:
 npm install gh-pages --save-dev
