@@ -14,7 +14,7 @@ npm create-react-app react-todo-list
 
 #### Change into project directory.  
 ```:
-cd react-todo-list
+cd react-todo-list/
 ```
 
 #### Start the application.
