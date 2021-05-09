@@ -1,0 +1,119 @@
+* {
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 1rem;
+	font: 1em Helvetica Neue, Helvetica, Arial;  
+	text-size-adjust: 100%;
+	box-sizing: border-box;  
+	line-height: 1;
+}
+
+body {	
+	margin: 0;
+	font-size: 1rem;
+	color: #484848;  
+	background: white;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 1em 0.25em;
+	font-weight: 600;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	line-height: 1;
+	color: #484848;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+main {
+	display: block;
+}
+
+a {
+	background-color: transparent;
+}
+
+textarea {
+	overflow: auto;
+}
+
+button, [type=button] {
+	display: inline-block;
+	outline: none; 
+	border-radius: 5px;
+	background: #0366EE;  
+	border: 1px solid #0366EE;  
+	vertical-align: middle;
+	text-transform: none;
+	padding: 0.75em 1em;
+	margin: 0 0 1em 0;  
+	color: white;
+	text-align: center;
+	cursor: pointer;  
+	font-weight: 600;
+	font-family: Helvetica Neue, Arial;
+	font-size: 1em;
+	overflow: visible;
+	line-height: 1;
+}
+
+#completeButton {
+  margin-top: 1em;
+}
+
+[type=text] {
+	display: block;
+	border: 1px solid #BEBEBE;
+	border-radius: 5px;
+	padding: 0.75em;
+	outline: none;
+	background: transparent;
+	margin-bottom: 1em;
+	font-size: 1rem;
+	width: 100%;
+	max-width: 100%;
+	overflow: visible;   
+	line-height: 1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 1.5em;
+}
+
+#formDataCell {
+	border-top: 1px solid white;
+}
+
+td {
+	border-bottom: 1px solid #BEBEBE;
+	border-top: 1px solid #BEBEBE;
+}
+
+th, td{
+	text-align: left;
+	padding: 0.5em;
+}
